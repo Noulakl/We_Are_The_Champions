@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    display: grid;
+    place-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    user-select: none;
+}
+main{
+    color: #fefeff;
+    width: 390px;
+    background: #1b1923;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+img{
+    width: 150px;
+    margin: 5px auto;
+}
+input{
+    margin: 20px 0;
+    padding: 10px 10px ;
+    border: none;
+    border-radius: 8px;
+    background-color: #44415b;
+    color: white;
+    font-size: 12pt ;
+}
+.fromTo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.smallerInput{
+    width: 145px;
+    height: 30px;
+    text-align: center;
+}
+
+textarea{
+    height: 120px;
+    margin-bottom: 0;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #44415b;
+    color: white;
+    font-size: 12pt ;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    resize: none;
+}
+
+button{
+    color: #012032;
+    background-color:#00acf7;
+    padding: 15px 0;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 14pt;
+}
+
+button:hover{
+    scale: 110%;
+}
+
+#EndorsementsContainer{
+    background-color: #fefeff ;
+    color: #1b1923;
+    padding: 5px 20px;
+    border-radius: 15px;
+    text-align: justify;
+    margin: 20px 0;
+    user-select: all;
+}
+
+.likeBTn{
+    background: none;
+    margin: 0 10px 0 0;
+    scale: 120%;
+    user-select: none;
+}
+
+.likesection{
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
